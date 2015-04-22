@@ -76,7 +76,7 @@ namespace slimCat.Views
 
         #region Methods
 
-        protected override void Dispose(bool isManaged)
+        protected void Dispose(bool isManaged)
         {
             if (!isManaged)
                 return;

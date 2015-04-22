@@ -11,7 +11,7 @@
     <SolidColorBrush Color="{StaticResource ForegroundColor}" Opacity="0.9" x:Key="HistoryBrush" />
 
     <BooleanToVisibilityConverter x:Key="BoolConverter" />
-    <utilities:OppositeBoolConverter x:Key="OppositeBoolConverter" />
+    <utilities:OppositeBoolConverter  x:Key="OppositeBoolConverter" />
     <utilities:BoolColorConverter x:Key="ColorConverter" />
     <utilities:GenderImageConverter x:Key="GenderImageConverter" />
     <utilities:ChannelTypeToImageConverter x:Key="ChannelTypeToImageConverter" />

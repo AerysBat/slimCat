@@ -50,6 +50,7 @@ namespace slimCat.Models
         private string name = string.Empty;
 
         private StatusType status;
+        //public ProfileData currentCharacterData;
 
         private string statusMessage = string.Empty;
 
@@ -78,6 +79,18 @@ namespace slimCat.Models
             {
                 avatar = value;
                 OnPropertyChanged("Avatar");
+            }
+        }
+
+
+        public ProfileData currentCharacterData
+        {
+            get { return currentCharacterData; }
+
+            set
+            {
+                currentCharacterData = value;
+                //OnPropertyChanged("currentCharacterData");
             }
         }
 

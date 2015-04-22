@@ -28,6 +28,8 @@ namespace slimCat.Services
     using Microsoft.Practices.Prism.Events;
     using Models;
     using Utilities;
+    using System;
+    using System.Windows;
 
     #endregion
 
@@ -171,5 +173,6 @@ namespace slimCat.Services
         }
 
         #endregion
+
     }
 }

@@ -38,6 +38,11 @@ namespace slimCat.Models
         BitmapImage Avatar { get; set; }
 
         /// <summary>
+        ///     Gets or sets profile data. (kinks, etc.) 
+        /// </summary>
+        ProfileData currentCharacterData { get; set; }
+
+        /// <summary>
         ///     Gets or sets the character's gender.
         /// </summary>
         Gender Gender { get; set; }
