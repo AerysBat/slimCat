@@ -99,7 +99,7 @@ namespace slimCat
 
         #endregion
 
-        protected void OnStartup(StartupEventArgs e)
+        override protected void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
             
